@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+body{
+    background: url("background1.jpg");
+    background-size: inherit;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: lightcoral;
+    border-radius: 3px;
+}
+nav .logo{
+    font-size: 35px;
+    font-family: cursive;
+    color: white;
+
+}
+div{
+    display: block;
+    text-align: center;
+}
+.hh4{
+    font-size: 60px;
+    font-family: cursive;
+    color: white;
+
+}
+.form1 {
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    display:block;
+    width: 450px;
+    height: 45px;
+    font-family: cursive;
+    border-style: solid;
+    border-color: lightcoral;
+    border-radius: 15px;
+    background: transparent;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+
+}
+.iplable{
+    text-align: center;
+    display: block;
+    font-family: cursive;
+    font-size: 15px;
+    margin: 10px;
+}
+.btn1{
+    border-style: solid;
+    border-color: lightcoral;
+    border-radius: 15px;
+    background-color: lightcoral;
+    color: white;
+    display: block;
+    font-family: cursive;
+    font-size: 25px;
+    height: 40px;
+    width: 450px;
+
+}
+.btn1:hover {
+ background-color: lightpink;
+    transition-duration: 2s;
+    color: white;
+}
+.btn2{
+    border-style: solid;
+    border-color: lightcoral;
+    border-radius: 15px;
+    display: block;
+    background-color: lightcoral;
+    color: white;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 25px;
+    height: 40px;
+    width: 450px;
+
+}
+.btn2:hover {
+    background-color: lightpink;
+    transition-duration: 2s;
+    color: white;
+}
+.loginlink{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: lightcoral;
+    color: white;
+    font-family: cursive;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+.img00{
+    text-align: center;
+    height: 25px;
+    width: 30px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
